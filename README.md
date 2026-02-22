@@ -21,23 +21,24 @@ A professional WordPress plugin that adds an AI-powered chatbot to any WordPress
 
 ## Installation
 
-### Method 1: Download and Upload
-1. Download this repository as ZIP
+### Method 1: Download and Upload (Easiest)
+1. Download the latest release: [Download ZIP](https://github.com/Jasoncheery/wordpress-ai-chatbot/archive/refs/heads/main.zip)
 2. Go to WordPress Admin → Plugins → Add New → Upload Plugin
 3. Upload the ZIP file
-4. Click "Activate Plugin"
+4. Click "Install Now" → "Activate Plugin"
 
 ### Method 2: Manual Installation
 1. Download/clone this repository
-2. Copy the `simple-llm-chatbot` folder to `wp-content/plugins/`
-3. Go to WordPress Admin → Plugins
-4. Find "Simple LLM Chatbot with Analytics"
-5. Click "Activate"
+2. Rename folder to `simple-llm-chatbot` (remove `-wp` or `-main` suffix)
+3. Upload to `wp-content/plugins/` via FTP
+4. Go to WordPress Admin → Plugins
+5. Find "Simple LLM Chatbot with Analytics"
+6. Click "Activate"
 
 ### Method 3: Git Clone (For Developers)
 ```bash
 cd wp-content/plugins/
-git clone https://github.com/YOUR_USERNAME/simple-llm-chatbot-wp.git simple-llm-chatbot
+git clone https://github.com/Jasoncheery/wordpress-ai-chatbot.git simple-llm-chatbot
 ```
 
 ## Quick Setup (5 Minutes)
