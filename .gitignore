@@ -1,0 +1,21 @@
+# WordPress
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment files (never commit API keys)
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
