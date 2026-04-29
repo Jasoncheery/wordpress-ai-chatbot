@@ -673,8 +673,7 @@ function slc_render_chat_widget() {
                 const res = await fetch('<?php echo esc_url(rest_url('simple-llm/v1/chat')); ?>', {
                     method: 'POST',
                     headers: { 
-                        'Content-Type': 'application/json',
-                        'X-WP-Nonce': '<?php echo wp_create_nonce('wp_rest'); ?>'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({ 
                         message: msg, 
@@ -741,8 +740,7 @@ function slc_render_chat_widget() {
                 await fetch('<?php echo esc_url(rest_url('simple-llm/v1/feedback')); ?>', {
                     method: 'POST',
                     headers: { 
-                        'Content-Type': 'application/json',
-                        'X-WP-Nonce': '<?php echo wp_create_nonce('wp_rest'); ?>'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({ 
                         log_id: logId, 
